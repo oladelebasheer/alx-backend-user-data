@@ -2,7 +2,7 @@
 """
 Main file
 """
-'''
+
 import logging
 import re
 
@@ -37,7 +37,7 @@ for row in cursor:
     print(row[0])
 cursor.close()
 db.close()
-'''
+
 password = "MyAmazingPassw0rd"
 encrypted_password = hash_password(password)
 print(hash_password(password))
